@@ -10,19 +10,28 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="container">
         <header>
             <h1>LOJAS EU JURO QUE É VERDADE</h1>
+            <nav>
+                <menu>
+                    <li><a href="#produto">Destaque</a></li>
+                    <li><a href="#faixas">Faixas</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                </menu>
+            </nav>
         </header>
         <main>
-            <h2>PRÉ VENDA - VYNIL DO ÁLBUM PERDIDO DOS BEATLES</h2>
-            <section class="produto">
+            <section class="produto" id="produto">
+                <h2>PRÉ VENDA - VYNIL DO ÁLBUM PERDIDO DOS BEATLES</h2>
                 <img src="images/beatles-na-paulista.JPG" width="640" height="480" alt="Capa do álbum">
                 <h3>We're Going to Itaquera</h3>
                 <p>Após acharem demos semi finalizadas originais, Paul McCartney sem a autorização de nenhum parente dos
                     falecidos ou do ainda vivo Ringo Starr, usou I.A para finalizar o álbum que eles sempre quiseram
                     fazer: Sobre a noite paulistana e sobre o amor que eles tem pela Zona Leste de São Paulo.</p>
-                <aside>
+                <aside class="faixas" id="faixas">
                     <h4>Lista de faixas</h4>
                     <ol>
                         <li>BE MY ARTHUR ALVIM</li>
@@ -30,7 +39,7 @@
                         <li>AUGUST 1ST LOST IN AUGUSTA STREET</li>
                         <li>YELLOW CARRÃO</li>
                         <li>GO TO BRAZIL, YOKO </li>
-                        <li>A.E OAK</li>
+                        <li>A.E. OAK</li>
                         <li>GO WATCH YOUR TWIN PEAKS, WITCH</li>
                         <li>GIRL FROM PATRIARCA</li>
                     </ol>
@@ -39,7 +48,23 @@
                 <button>Comprar</button>
             </section>
         </main>
-        <section class="form-newsletter">
+        <section id="depoimentos">
+            <h2>Depoimentos</h2>
+            <blockquote>
+                <p>"Esse álbum é incrível, pessoal! O Paul McCartney pegou aquelas demos antigas e transformou em algo
+                    incrível, tudo isso sem pedir licença pra ninguém! Um verdadeiro sucesso. 10/10"</p>
+                <cite>Nazaré Tedesco</cite>
+            </blockquote>
+            <blockquote>
+                <p>"O álbum é uma obra-prima da I.A. e da malandragem brasileira! Os Beatles e a Zona Leste de São Paulo juntos? É genial, pessoal! Se tiver oportunidade, não perca essa viagem musical. Só não conta pra ninguém que o Ringo não sabe disso!"</p>
+                <cite>Cabo Daciolo</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Esse álbum é como aquele meme do 'BBB', você não sabe o que esperar, mas quando ouve, fica chocado com o resultado. Uma verdadeira pérola da internet! Não posso acreditar que isso aconteceu, mas estou amando!"</p>
+                <cite>Inês Brasil</cite>
+            </blockquote>
+        </section>
+        <section class="contato" id="contato">
             <h3>INSCREVA-SE NA NOSSA NEWSLETTER E NÃO PERCA NENHUM LANÇAMENTO</h3>
             <form>
                 <label for="nome">Nome:</label>
@@ -51,7 +76,7 @@
                 <input type="submit" value="Enviar">
             </form>
         </section>
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <h3>Sobre Nós</h3>
             <p>Atuamos no ramo de vendas de vinil, borracharia e agiotagem desde 2023</p>
         </section>
