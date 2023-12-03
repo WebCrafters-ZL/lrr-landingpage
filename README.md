@@ -10,6 +10,11 @@ Vender o álbum perdido dos Beatles, proporcionando aos fãs uma experiência au
 ### Público-alvo
 O site é voltado para fãs de Beatles, colecionadores de vinil e amantes da música que buscam experiências musicais e colecionáveis ​​especiais.
 
+## Alterações
+Foi incluída uma validação em Javascript ao formulário de inscrição na newsletter.
+Verificamos se os campos foram todos preenchidos, se o e-mail é válido e se o telefone contém apenas números (ambos usando expressão regular).
+Se os campos estiverem Ok, é mostrado um alert com os dados preenchidos. Também é exibido um alert informando o erro quando a validação falha.
+
 ## Componentes do grupo
 
 - Leonardo Euripedes da Silva: [@leoesilva](https://www.github.com/leoesilva)
