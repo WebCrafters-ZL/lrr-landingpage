@@ -7,83 +7,153 @@
     <meta name="author"
         content="LEONARDO EURIPEDES DA SILVA, RODRIGO DA COSTA CATTO, RICARDO DE OLIVEIRA SILVA FILHO" />
     <title>EU JURO QUE É VERDADE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container" id="container">
+    <div class="container">
         <header>
-            <h1>LOJAS EU JURO QUE É VERDADE</h1>
-            <nav>
-                <menu>
-                    <li><a href="#produto">Destaque</a></li>
-                    <li><a href="#faixas">Faixas</a></li>
-                    <li><a href="#depoimentos">Depoimentos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                    <li><a href="#sobre">Sobre Nós</a></li>
-                </menu>
+            <h1 class="text-center">LOJAS EU JURO QUE É VERDADE</h1>
+            <nav class="navbar navbar-expand">
+                <div class="container-fluid">
+                    <menu class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#produto">Destaque</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faixas">Faixas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+                    </menu>
+                </div>
             </nav>
         </header>
         <main>
             <section class="produto" id="produto">
-                <h2>PRÉ VENDA - VYNIL DO ÁLBUM PERDIDO DOS BEATLES</h2>
-                <img src="images/beatles-na-paulista.JPG" width="640" height="480" alt="Capa do álbum">
-                <h3>We're Going to Itaquera</h3>
-                <p>Após acharem demos semi finalizadas originais, Paul McCartney sem a autorização de nenhum parente dos
-                    falecidos ou do ainda vivo Ringo Starr, usou I.A para finalizar o álbum que eles sempre quiseram
-                    fazer: Sobre a noite paulistana e sobre o amor que eles tem pela Zona Leste de São Paulo.</p>
-                <aside class="faixas" id="faixas">
-                    <h4>Lista de faixas</h4>
-                    <ol>
-                        <li>BE MY ARTHUR ALVIM</li>
-                        <li>LONDON TO ITAIM PAULISTA</li>
-                        <li>AUGUST 1ST LOST IN AUGUSTA STREET</li>
-                        <li>YELLOW CARRÃO</li>
-                        <li>GO TO BRAZIL, YOKO </li>
-                        <li>A.E. OAK</li>
-                        <li>GO WATCH YOUR TWIN PEAKS, WITCH</li>
-                        <li>GIRL FROM PATRIARCA</li>
-                    </ol>
-                </aside>
-                <p>Preço: R$ 149,99</p>
-                <button>Comprar</button>
+                <div class="container">
+                    <h2 class="text-center">Pré-venda - Vynil do álbum perdido dos Beatles</h2>
+                </div>
+                <div class="row">
+                    <div class="col"><div class="container-fluid">
+                        <img src="images/beatles-na-paulista.JPG" width="640" height="480" alt="Capa do álbum">
+                    </div></div>
+                    <div class="col">
+                        <div class="container">
+                            <h4>Lista de faixas</h4>
+                        </div>
+                        <div class="container-fluid">
+                            <ol>
+                                <li>BE MY ARTHUR ALVIM</li>
+                                <li>LONDON TO ITAIM PAULISTA</li>
+                                <li>AUGUST 1ST LOST IN AUGUSTA STREET</li>
+                                <li>YELLOW CARRÃO</li>
+                                <li>GO TO BRAZIL, YOKO </li>
+                                <li>A.E. OAK</li>
+                                <li>GO WATCH YOUR TWIN PEAKS, WITCH</li>
+                                <li>GIRL FROM PATRIARCA</li>
+                            </ol>
+                        </div>
+                        <div class="container">
+                            <span>Preço: R$ 149,99</span>
+                        </div>
+                        <div class="container">
+                            <button type="button">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <h3>We're Going to Itaquera</h3>
+                </div>
+                <div class="container-fluid">
+                    <p>Após acharem demos semi finalizadas originais, Paul McCartney sem a autorização de nenhum parente
+                        dos
+                        falecidos ou do ainda vivo Ringo Starr, usou I.A para finalizar o álbum que eles sempre quiseram
+                        fazer: Sobre a noite paulistana e sobre o amor que eles tem pela Zona Leste de São Paulo.</p>
+                </div>
             </section>
         </main>
         <section id="depoimentos">
-            <h2>Depoimentos</h2>
-            <blockquote>
-                <p>"Esse álbum é incrível, pessoal! O Paul McCartney pegou aquelas demos antigas e transformou em algo
-                    incrível, tudo isso sem pedir licença pra ninguém! Um verdadeiro sucesso. 10/10"</p>
-                <cite>Nazaré Tedesco</cite>
-            </blockquote>
-            <blockquote>
-                <p>"O álbum é uma obra-prima da I.A. e da malandragem brasileira! Os Beatles e a Zona Leste de São Paulo juntos? É genial, pessoal! Se tiver oportunidade, não perca essa viagem musical. Só não conta pra ninguém que o Ringo não sabe disso!"</p>
-                <cite>Cabo Daciolo</cite>
-            </blockquote>
-            <blockquote>
-                <p>"Esse álbum é como aquele meme do 'BBB', você não sabe o que esperar, mas quando ouve, fica chocado com o resultado. Uma verdadeira pérola da internet! Não posso acreditar que isso aconteceu, mas estou amando!"</p>
-                <cite>Inês Brasil</cite>
-            </blockquote>
+            <div class="container">
+                <h3 class="text-center">Depoimentos</h3>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="container-fluid">
+                        <blockquote class="blockquote">
+                            <p>"Esse álbum é incrível, pessoal! O Paul McCartney pegou aquelas demos antigas e transformou em algo
+                                incrível, tudo isso sem pedir licença pra ninguém! Um verdadeiro sucesso. 10/10"</p>
+                                <figcaption class="blockquote-footer">
+                                    <cite>Nazaré Tedesco</cite>
+                                </figcaption>                        
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="container-fluid">
+                        <blockquote class="blockquote">
+                            <p>"O álbum é uma obra-prima da I.A. e da malandragem brasileira! Os Beatles e a Zona Leste de São Paulo
+                                juntos? É genial, pessoal! Se tiver oportunidade, não perca essa viagem musical. Só não conta pra
+                                ninguém que o Ringo não sabe disso!"</p>
+                                <figcaption class="blockquote-footer">
+                                    <cite>Cabo Daciolo</cite>
+                                </figcaption>                        
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="container-fluid">
+                        <blockquote class="blockquote">
+                            <p>"Esse álbum é como aquele meme do 'BBB', você não sabe o que esperar, mas quando ouve, fica chocado
+                                com o resultado. Uma verdadeira pérola da internet! Não posso acreditar que isso aconteceu, mas
+                                estou amando!"</p>
+                            <figcaption class="blockquote-footer">
+                                <cite>Inês Brasil</cite>
+                            </figcaption>
+                        </blockquote>
+                    </div>  
+                </div>
+            </div>
         </section>
         <section class="contato" id="contato">
-            <h3>INSCREVA-SE NA NOSSA NEWSLETTER E NÃO PERCA NENHUM LANÇAMENTO</h3>
-            <form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
-                <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" name="telefone" required><br>
-                <input type="submit" value="Enviar">
-            </form>
+            <div class="container">
+                <h4 class="text-center">Inscreva-se na nossa newsletter e não perca nenhum lançamento</h4>
+            </div>
+            <div class="container-fluid w-50">
+                <form id="newsletter" name="newsletter" method="post">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" id="nome" name="nome" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="text" id="email" name="email" class="form-control">
+                        <div id="emailHelp" class="form-text">Não compartilharemos seu endereço de e-mail com ninguém.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label">Telefone:</label>
+                        <input type="text" id="telefone" name="telefone" class="form-control">
+                    </div>
+                    <button type="submit" onclick="validaFormulario()">Enviar</button>
+                </form>
+            </div>            
         </section>
-        <section class="sobre" id="sobre">
-            <h3>Sobre Nós</h3>
-            <p>Atuamos no ramo de vendas de vinil, borracharia e agiotagem desde 2023</p>
+        <section class="sobre text-center" id="sobre">
+            <div class="container">
+                <h3 class="text-center">Sobre Nós</h3>
+            </div>
+            <div class="container-fluid">
+                <p>Atuamos no ramo de vendas de vinil, borracharia e agiotagem desde 2023.</p>
+            </div>            
         </section>
-        <footer>
-            <p>&copy; 2023 LOJAS EU JURO QUE É VERDADE - Todos os direitos reservados</p>
+        <footer class="text-center">
+            <div class="container-fluid">
+                <p>&copy; 2023 LOJAS EU JURO QUE É VERDADE - Todos os direitos reservados</p>
+            </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <script src="scripts/script.js"></script>
 </body>
 
 </html>
